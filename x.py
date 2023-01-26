@@ -5,8 +5,8 @@ import pandas as pd
 import json
 from xml.etree import ElementTree
 
-institution_key = 'APP-J19Q1Z3RMF2E9W60'
-institution_secret = '72e8548c-1726-4d7a-b429-fe3e70188a53'
+institution_key = 'XXX-XXXXXXXXX'
+institution_secret = 'XXX-XXX-XXX-XXX-XXX'
 
 api = orcid.PublicAPI(institution_key, institution_secret, sandbox=True)
 
